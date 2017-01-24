@@ -1,2 +1,11 @@
 [include]
    path = ./.gitconfig_user 
+[alias]
+  lol = log --decorate --pretty=oneline --abbrev-commit
+  lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+  gpop = git stash pop
+  gstash = git stash
+  gcob = git checkout -b
+  gca = git commit -a
+[pull]
+        rebase = true
